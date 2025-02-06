@@ -1,5 +1,4 @@
-import PIL.Image,fitz,os,io
-import sys
+import PIL.Image,fitz,io
 import streamlit as st
 import time
 

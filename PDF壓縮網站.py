@@ -67,7 +67,7 @@ def PEND():# proenterprise name display
         <style>
         .custom-title{
             position: absolute;
-            top: 10px;
+            top: 1px;
             left 10px;
             left 10px;
             font-size: 24px;

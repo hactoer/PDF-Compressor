@@ -114,7 +114,7 @@ def more():
     if c=="關於網頁":
         st.write('歡迎大家使用PDF壓縮工具')
         st.write('本網頁由ProgrammerPython00開發')
-        st.write("版本號:0.97.1.250205")
+        st.write("版本號:1.00.1.250206")
     elif c=='回饋':
         st.write("回饋表單:")
         form_url_embed='<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRjS9dlayW4dobwNPXW1fmCe7tUauKw4xgWObbTpY6ORE3Ig/viewform?embedded=true" width="640" height="656" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>'

@@ -121,10 +121,9 @@ def more():
     elif c=='聯絡我們':
         st.write("有任何問題，很歡迎聯絡我們")
         st.markdown('[ProgrammerPython00@gmail.com](mailto:ProgrammerPython00@gmail.com)')
-def main():
-    PEND()
+def main():  
     more()
-    
+    PEND()
     
 if __name__=="__main__":
     main()

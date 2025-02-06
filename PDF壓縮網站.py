@@ -53,8 +53,10 @@ def CPV(images,quality):#compression preview
     st.image(compressed_images_preview,caption="預覽(前三頁)",use_column_width=True)
 def more():
     st.sidebar.title("更多")
-    c=st.sidebar.selectbox("",['關於網頁','回饋','聯絡我們'])
-    if c=="關於網頁":
+    c=st.sidebar.selectbox("",['首頁','關於網頁','回饋','聯絡我們'])
+    if c=='首頁':
+        pass
+    elif c=="關於網頁":
         st.write('歡迎大家使用PDF壓縮工具')
         st.write('本網頁由ProgrammerPython00開發')
         st.write("版本號:0.97.1.250205")

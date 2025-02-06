@@ -122,7 +122,7 @@ def more():
         st.write("有任何問題，很歡迎聯絡我們")
         st.markdown('[ProgrammerPython00@gmail.com](mailto:ProgrammerPython00@gmail.com)')
 def main(): 
-        st.set_page_config(
+    st.set_page_config(
         page_title='PDF壓縮器',
         page_icon='💾',
         layout='centered'

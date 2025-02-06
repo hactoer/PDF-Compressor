@@ -113,7 +113,7 @@ def more():
     if c=="關於網頁":
         st.write('歡迎大家使用PDF壓縮工具')
         st.write('本網頁由ProgrammerPython00開發')
-        st.write("版本號:1.00.1.250206")
+        st.write("版本號:1.02.1.250206")
     elif c=='回饋':
         st.write("回饋表單:")
         form_url_embed='<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeRjS9dlayW4dobwNPXW1fmCe7tUauKw4xgWObbTpY6ORE3Ig/viewform?embedded=true" width="640" height="656" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe>'
@@ -121,7 +121,13 @@ def more():
     elif c=='聯絡我們':
         st.write("有任何問題，很歡迎聯絡我們")
         st.markdown('[ProgrammerPython00@gmail.com](mailto:ProgrammerPython00@gmail.com)')
-def main():  
+def main(): 
+        st.set_page_config(
+        page_title='PDF壓縮器',
+        page_icon='💾',
+        layout='centered'
+        
+    )
     more()
     PEND()
     

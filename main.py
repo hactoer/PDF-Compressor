@@ -20,7 +20,7 @@ def PEND():# proenterprise name display
             left: 500px;
             font-size: 24px;
             font-weight: bold;
-            color: white;
+            color: blue;
             background-color: rgba(255,255,255,0.8);
             padding: 5px 10px;
             border-radius: 5px;

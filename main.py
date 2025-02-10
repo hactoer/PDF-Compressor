@@ -11,7 +11,7 @@ def sponser():
 ]
     st.markdown('---')
 def PEND():# proenterprise name display
-    st.html(
+    st.markdown(
         """
         <style>
         .custom-title{
@@ -26,7 +26,7 @@ def PEND():# proenterprise name display
             border-radius: 5px;
             display: inline-block;
         }
-        """
+        """,unsafe_allow_html=True
     )
     st.markdown('<div class="custom-title">ProgrammerPython00</div>',unsafe_allow_html=True)
 def home():
